@@ -3,11 +3,11 @@ package locale
 import (
 	"testing"
 
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/simia-tech/caddy-locale/method"
+	"github.com/caddy-plugins/caddy-locale/method"
 )
 
 func TestLocaleParsing(t *testing.T) {
